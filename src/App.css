@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: radial-gradient(circle, #fff 10%, transparent 10%);
+  background-size: 20px 20px; /* Adjust size to control dot spacing */
+  background-position: 0 0, 10px 10px; /* Creates offset for checkerboard pattern */
+  background-color: #e1a639; /* Base color for the gradient */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +31,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
